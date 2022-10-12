@@ -1,0 +1,34 @@
+{
+	"name": "kostealupu/tbc-bank"
+	,"version": "1.4.7"
+	,"description": "maib integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "mailto:ecom@maib.md"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "maib",
+		"email": "ecom@maib.md",
+		"homepage": "maib.md",
+		"role": "Developer"
+	}]
+	,"require": {"kostealupu/core": ">=7.8.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TBCBank\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"maib"
+		,"модуль"
+		,"модуль для Magento 2"
+		,"модуль оплаты"
+		,"платёжный модуль"
+	]
+}
