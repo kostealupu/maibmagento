@@ -3,7 +3,7 @@
 	,"version": "1.0.0"
 	,"description": "integration with Magento 2"
 	,"type": "magento2-module"
-	,"require": {"kostealupu/core": ">=1.0.0"}
+	,"require": {"kostealupu/baza": ">=1.0.0"}
 	,"license": "MIT"
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TBCBank\\": ""}}
 	,"keywords": [
