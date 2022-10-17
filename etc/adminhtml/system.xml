@@ -46,7 +46,7 @@
 					type='Df\Framework\Form\Element\Textarea'
 				>
 					<label>Certificate</label>
-					<comment><![CDATA[Paste the contents of your certificate (in the *.pem format) here. For test: magento-0149583.pem. For live transactions request certificate from <b>maib</b>.]]></comment>
+					<comment><![CDATA[Paste the contents of your certificate (in the *.pem format) here. For test: <b>magento-0149583.pem</b>. For live transactions request certificate from <b>maib</b>.]]></comment>
 					<depends>
 						<field id='enable'>1</field>
 					</depends>
@@ -60,7 +60,7 @@
 					type='obscure'
 				>
 					<label>Password</label>
-					<comment><![CDATA[For test: Za86DuC$. For live transactions request password from <b>maib</b>.]]></comment>
+					<comment><![CDATA[For test: <b>Za86DuC$</b>. For live transactions request password from <b>maib</b>.]]></comment>
 					<backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
 					<depends>
 						<field id='enable'>1</field>
