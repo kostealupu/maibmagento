@@ -38,6 +38,7 @@ final class Charge extends \Df\Payment\Charge {
 		,'currency' => df_currency_num($this->currencyC())
 		# 2018-09-26 «transaction details, optional (up to 125 characters)»
 		,'description' => $this->description()
+                ,'language' => substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)
 	];}
 
 	/**
