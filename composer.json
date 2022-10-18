@@ -6,13 +6,9 @@
 	,"require": {"kostealupu/baza": ">=1.0.0"}
 	,"license": "MIT"
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TBCBank\\": ""}}
-	,"config": {
-    "github-oauth": {
-        "github.com": "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"
-    }
-}
 	,"keywords": [
 		"API"
+		,"maib"
 		,"Bank card"
 		,"Credit card"
 		,"eCommerce"		
@@ -22,9 +18,5 @@
 		,"Payment authorization"
 		,"Payment integration"
 		,"Payment gateway"
-		,"модуль"
-		,"модуль для Magento 2"
-		,"модуль оплаты"
-		,"платёжный модуль"
 	]
 }
