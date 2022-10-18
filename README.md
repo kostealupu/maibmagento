@@ -2,7 +2,7 @@
 
 Introduction
 ------------
-The module integrates a Magento 2 based webstore with **maib**.
+The module integrates a Magento 2 based webstore with **maib** ecommerce.
 
 Requirements
 ------------
