@@ -33,7 +33,7 @@ Stores > Configuration > MAIB > Payment
 
 **Title**
 
-Title to be shown on the checkout screen.
+Title displayed on the checkout screen.
 
 **Certificate**
 
@@ -70,15 +70,15 @@ Transaction description displayed in the **maib** merchant interface.
 ```
 Live mode
 -------------
-After successful tests (transaction, revers, close business day) you will receive a certificate, password and endpoints for live mode.
+After successful tests (transaction, reversal, close business day) you will receive a certificate, password and endpoints for live mode.
 
 Actual endpoints for live mode:
 * Merchant handler: https://maib.ecommerce.md:11440/ecomm01/MerchantHandler
 * Client handler: https://maib.ecommerce.md:443/ecomm01/ClientHandler
 
 Is mandatory to change test endpoints to live endpoints in module:
-* Merchant handler: maibmagento/API/Client.php (line 54)
-* Client handler: maibmagento/view/frontend/web/main.js (line 49)
+* Merchant handler: *maibmagento/API/Client.php* (line 54)
+* Client handler: *maibmagento/view/frontend/web/main.js* (line 49)
 
 And run commands:
 ```
@@ -86,6 +86,11 @@ bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
 ```
-Revers transaction:
--------------
+Reversal transaction
+--------------------
+
+
+
+
+
 
