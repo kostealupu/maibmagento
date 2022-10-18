@@ -15,8 +15,10 @@ bin/magento maintenance:enable
 composer clear-cache
 composer require kostealupu/maibmagento:*
 bin/magento setup:upgrade
-rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
-rm -rf pub/static/* && bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
+rm -rf var/di var/generation generated/code
+bin/magento setup:di:compile
+rm -rf pub/static/*
+bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
 bin/magento maintenance:disable
 ```
 BEFORE USAGE
