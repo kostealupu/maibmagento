@@ -29,7 +29,7 @@ Send email to **maib** ecommerce support (ecom@maib.md) and indicate your site's
 
 CONFIGURATION
 -------------
-Stores > Configuration > MAIB > Payment
+*Stores > Configuration > MAIB > Payment*
 
 **Title**
 
@@ -88,6 +88,16 @@ bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
 ```
 Reversal transaction
 --------------------
+A reverse transaction is possible from the admin panel:
+
+Sale > Orders > View order > Invoices > View invoice > Credit memo > Refund
+
+Close bussines day
+-------------------
+Task for mandatory business day close is added in cron job (23:59): *maibmagento/etc/crontab.xml*
+
+Magento Cron is required to be enabled!
+
 
 
 
