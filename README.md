@@ -25,7 +25,7 @@ BEFORE USAGE
 -------------
 To initiate a payment transaction you will need get the access by IP and set the return callback URL of your site at bank side.
 
-Write an email to Maib ecommerce support (ecom@maib.md) and indicate your site's external IP address and callback URL (https://yoursite.com/dfe-tbc-bank/).
+Write an email to **maib** ecommerce support (ecom@maib.md) and indicate your site's external IP address and callback URL (https://yoursite.com/dfe-tbc-bank/).
 
 CONFIGURATION
 -------------
@@ -38,10 +38,12 @@ Title to be shown on the checkout screen.
 **Certificate**
 
 Paste the contents of your certificate (in the *.pem* format) here. For test: **magento-0149583.pem** from this repository. 
-For live transactions request certificate from [<b>maib</b>](mailto:ecom@maib.md). You will receive certificate for live transaction in *.pfx* format.
+For live transactions request certificate from <b>maib</b> ecommerce support. You will receive a certificate for live transaction in *.pfx* format.
 
- Use openssl to convert certificate in *.pem* format from *.pfx* certificate and password provided by bank:
+ Use openssl to convert certificate in *.pem* format from *.pfx* and password provided by bank:
  ```
  openssl pkcs12 -in certificate.pfx -out certificate.pem -nodes
  ```
+**Password**
 
+For test: "**Za86DuC$**". For live transactions request password from **maib** ecommerce support.
