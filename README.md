@@ -37,8 +37,8 @@ Title to be shown on the checkout screen.
 
 **Certificate**
 
-Paste the contents of your certificate (in the *.pem* format). For test: "***magento-0149583.pem***" from this repository. 
-For live transactions request certificate from <b>maib</b> ecommerce support. You will receive a certificate for live transaction in *.pfx* format.
+Paste the contents of your certificate (in the *.pem* format). For test mode: "***magento-0149583.pem***" from this repository. 
+For live mode request certificate from <b>maib</b> ecommerce support. You will receive a certificate for live mode in *.pfx* format.
 
  Use openssl to convert certificate in *.pem* format from *.pfx* and password provided by bank:
  ```
@@ -46,7 +46,7 @@ For live transactions request certificate from <b>maib</b> ecommerce support. Yo
  ```
 **Password**
 
-For test: "***Za86DuC$***". For live transactions request password from **maib** ecommerce support.
+For test mode: "***Za86DuC$***". For live mode request password from **maib** ecommerce support.
 
 **Payment Action**
 
@@ -68,3 +68,14 @@ Transaction description displayed in the **maib** merchant interface.
 {store.url}	- Store URL
 {current date}	- The current date. Use any expression supported by PHP `date()` function. Example: `{y-m}` => 16-01.
 ```
+Live mode
+-------------
+After successful tests (transaction, revers, close business day) you will receive a certificate, password and endpoints for live mode.
+
+Actual endpoints for live mode:
+* Merchant handler: https://maib.ecommerce.md:11440/ecomm01/MerchantHandler
+* Client handler: https://maib.ecommerce.md:443/ecomm01/ClientHandler
+
+Is mandatory to change test endpoints to live endpoints in module:
+* Merchant handler: maibmagento/API/Client.php (line 54)
+* Client handler: maibmagento/view/frontend/web/main.js (line 49)
