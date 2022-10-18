@@ -37,7 +37,7 @@ Title to be shown on the checkout screen.
 
 **Certificate**
 
-Paste the contents of your certificate (in the *.pem* format) here. For test: "**magento-0149583.pem**" from this repository. 
+Paste the contents of your certificate (in the *.pem* format). For test: "**magento-0149583.pem**" from this repository. 
 For live transactions request certificate from <b>maib</b> ecommerce support. You will receive a certificate for live transaction in *.pfx* format.
 
  Use openssl to convert certificate in *.pem* format from *.pfx* and password provided by bank:
