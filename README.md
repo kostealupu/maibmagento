@@ -70,7 +70,7 @@ Transaction description displayed in the **maib** merchant interface.
 ```
 Live mode
 -------------
-After successful tests (transaction, reversal, close business day) you will receive a certificate, password and endpoints for live mode.
+After successful tests (transaction, reversal, close business day) you will receive from **maib** a certificate, password and endpoints for live mode.
 
 Actual endpoints for live mode:
 * Merchant handler: https://maib.ecommerce.md:11440/ecomm01/MerchantHandler
