@@ -90,13 +90,25 @@ Reversal transaction
 --------------------
 A reverse transaction is possible from the admin panel:
 
-Sale > Orders > View order > Invoices > View invoice > Credit memo > Refund
+*Sale > Orders > View order > Invoices > View invoice > Credit memo > Refund*
 
 Close bussines day
 -------------------
 Task for mandatory business day close is added in cron job (23:59): *maibmagento/etc/crontab.xml*
 
 Magento Cron is required to be enabled!
+
+Troubleshooting
+---------------
+
+All transactions are considered successful it's only if you receive a predictable response from the maib server in
+the format you know. If you receive any other result (NO RESPONSE, Connection Refused, something else) there
+is a problem. In this case it is necessary to collect all logs and sending them to **maib** by email: ecom@maib.md, in
+order to provide operational support. The following information should be indicated in the letter:
+- Merchant name
+- Web site name
+- Date and time of the transaction 
+- Responses received from the server
 
 
 
