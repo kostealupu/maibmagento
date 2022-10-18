@@ -1,14 +1,14 @@
 # MAIB payment method for Magento 2
 
-INTRODUCTION
+Introduction
 ------------
 The module integrates a Magento 2 based webstore with **maib**.
 
-REQUIREMENTS
+Requirements
 ------------
 Magento 2 (Composer v.2)
 
-INSTALLATION
+Installation
 ------------
 ```
 bin/magento maintenance:enable
@@ -21,13 +21,13 @@ rm -rf pub/static/*
 bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
 bin/magento maintenance:disable
 ```
-BEFORE USAGE
+Before usage
 -------------
 To initiate a payment transaction you will need get the access by IP and set the return callback URL of your site at bank side.
 
 Send email to **maib** ecommerce support (ecom@maib.md) and indicate your site's external ***IP*** address and ***callback URL*** (https://yoursite.com/dfe-tbc-bank/).
 
-CONFIGURATION
+Configuration
 -------------
 *Stores > Configuration > MAIB > Payment*
 
