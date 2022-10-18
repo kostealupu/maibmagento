@@ -7,8 +7,7 @@
 	,"license": "MIT"
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TBCBank\\": ""}}
 	,"keywords": [
-		"API"
-		,"maib"
+		"maib"
 		,"Bank card"
 		,"Credit card"
 		,"eCommerce"		
