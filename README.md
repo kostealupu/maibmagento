@@ -25,7 +25,7 @@ BEFORE USAGE
 -------------
 To initiate a payment transaction you will need get the access by IP and set the return callback URL of your site at bank side.
 
-Write an email to **maib** ecommerce support (ecom@maib.md) and indicate your site's external IP address and callback URL (https://yoursite.com/dfe-tbc-bank/).
+Send email to **maib** ecommerce support (ecom@maib.md) and indicate your site's external ***IP*** address and ***callback URL*** (https://yoursite.com/dfe-tbc-bank/).
 
 CONFIGURATION
 -------------
@@ -79,3 +79,13 @@ Actual endpoints for live mode:
 Is mandatory to change test endpoints to live endpoints in module:
 * Merchant handler: maibmagento/API/Client.php (line 54)
 * Client handler: maibmagento/view/frontend/web/main.js (line 49)
+
+And run commands:
+```
+bin/magento setup:upgrade
+bin/magento setup:di:compile
+bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
+```
+Revers transaction:
+-------------
+
