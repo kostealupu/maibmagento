@@ -25,7 +25,7 @@ Before usage
 -------------
 To initiate a payment transaction you will need get the access by IP and set the return callback URL of your site at bank side.
 
-Send email to **maib** ecommerce support (ecom@maib.md) and indicate your site's external ***IP*** address and ***callback URL*** (https://yoursite.com/dfe-tbc-bank/).
+Send email to **maib** ecommerce support (ecom@maib.md) and indicate your site external ***IP*** address and ***callback URL*** (https://yoursite.com/dfe-tbc-bank/).
 
 Configuration
 -------------
