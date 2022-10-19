@@ -92,7 +92,7 @@ A reverse transaction is possible from the admin panel:
 
 *Sale > Orders > View order > Invoices > View invoice > Credit memo > Refund*
 
-Close bussines day
+Close business day
 -------------------
 Task for mandatory business day close is added in cron job (23:59): *maibmagento/etc/crontab.xml*
 
@@ -109,10 +109,3 @@ order to provide operational support. The following information should be indica
 - Web site name
 - Date and time of the transaction 
 - Responses received from the server
-
-
-
-
-
-
-
