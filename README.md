@@ -88,7 +88,7 @@ bin/magento setup:static-content:deploy en_US <additional locales, e.g.: ro_RU>
 ```
 Reversal transaction
 --------------------
-A reverse transaction is possible from the admin panel:
+Transactions can be reversed from the Magento dashboard:
 
 *Sale > Orders > View order > Invoices > View invoice > Credit memo > Refund*
 
